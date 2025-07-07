@@ -21,3 +21,6 @@
         ```bash
         python main.py
         ```    *   Siga as instruções no terminal.
+    *   Insira como input um video de outro idioma
+    *   Aguarde o sistema.
+    *   Retornará com um output 
