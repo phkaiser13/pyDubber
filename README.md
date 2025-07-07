@@ -8,7 +8,6 @@
     *   Crie uma pasta para o projeto: `mkdir PH-Dubber && cd PH-Dubber`
     *   Crie um ambiente virtual: `python -m venv venv`
     *   Ative o ambiente: `source venv/bin/activate` (Linux/macOS) ou `venv\Scripts\activate` (Windows).
-    *   Salve todos os arquivos `.py` e o `requirements.txt` na pasta.
     *   Instale as dependências: `pip install -r requirements.txt`
     *   Configure as variáveis de ambiente:
         ```bash
