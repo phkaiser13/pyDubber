@@ -2,7 +2,6 @@
 from TTS.api import TTS
 from pydub import AudioSegment
 import torch
-import os
 
 
 def synthesize_dubbed_audio(original_audio_path: str, translated_segments: list, output_path: str = "temp") -> str:
@@ -81,11 +80,10 @@ tudo.
 ```python
 # main.py
 import os
-import shutil
-from downloader import download_video
-from video_processor import extract_audio, replace_audio
-from transcriber import transcribe_and_diarize
-from translator import translate_text_segments
+from src.downloader import download_video
+from src.video_processor import extract_audio, replace_audio
+from src.transcriber import transcribe_and_diarize
+from src.translator import translate_text_segments
 from voice_synthesizer import synthesize_dubbed_audio
 
 
