@@ -1,0 +1,26 @@
+# Para baixar vídeos de várias fontes
+yt-dlp
+
+# Para processamento de vídeo e áudio (extrair, combinar)
+moviepy
+
+# Para transcrição de alta qualidade com timestamps
+# faster-whisper é uma implementação otimizada do Whisper da OpenAI
+faster-whisper
+
+# Para diarização de locutor (identificar quem fala)
+# Requer concordar com os termos de uso no Hugging Face
+pyannote.audio
+
+# Para manipulação de áudio (juntar segmentos)
+pydub
+
+# Para tradução via API do Google
+google-cloud-translate-v2
+
+# A biblioteca de Text-to-Speech com clonagem de voz
+TTS
+
+# Dependências importantes para os modelos de ML
+torch
+torchaudio
